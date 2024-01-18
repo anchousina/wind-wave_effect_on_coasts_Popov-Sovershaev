@@ -1,8 +1,10 @@
-# wind-wave_effect_on_the_coasts_Popov-Sovershaev
+# wind-wave_effect_on_coasts_Popov-Sovershaev
 
-Wind wave effect (WWE) [Popov and Sovershaev, 1982; Shabanova et al., 2018; Kazhukalo et al., 2023] is based on the wave energy theory and correlations between wind speed and parameters of wind-induced waves. WWE is expressed as a water mass approaching to the coast per year (tons/year) and is proportional to the wind speed (V) to the power of three, duration of action of wave-generating winds (d) and wave fetch (x):
+Jupyter Notebook 'Popov-Sovershaev_WWE_calculation.ipynb' contains a script for calculation of wind-wave effect on the coasts according to Popov-Sovershaev method. 
 
-WWE = ρ/g * V^3 * d s *x / t
+Wind wave effect according to Popov-Sovershaev method (WWE) is based on the wave energy theory and correlations between wind speed and parameters of wind-induced waves [Popov and Sovershaev, 1982; Shabanova et al., 2018; Kazhukalo et al., 2023]. WWE is expressed as a water mass approaching to the coast per year (tons/year) and is proportional to the wind speed (V) to the power of three, duration of action of wave-generating winds (d) and wave fetch (x):
+
+WWE = ρ/g * V^3 * d * s * x / t
 
 Where ρ is density of the water (t/m3), g is gravitational acceleration (m/s2), V is wind speed of the specific direction at the height at 10 m above sea level (m/s), d is duration of the wind of the current direction for the period of the study (s), x is length of the fetch of the current wind direction (km), t is duration of studied period (years).
 
@@ -23,7 +25,7 @@ Input:
 Output:
   - Csv file containing the WWE calculated for every coastal transect.
      
-Sample files contains the data for the key site located on Crete, Greece. 
+Sample files are attached and contain the data for the key site located on Crete, Greece. 
 
 
 
