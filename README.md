@@ -21,9 +21,9 @@ Input:
  ! Don't forget to change the set of the rhumbs for your specific area.
 
 Output:
-  - Csv file containing the WWE calculated for the every coastal transect.
+  - Csv file containing the WWE calculated for every coastal transect.
      
-The sample files contains the data for the key site located on Crete, Greece. 
+Sample files contains the data for the key site located on Crete, Greece. 
 
 
 
